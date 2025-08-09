@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Convertedin" Calculator</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <div class="hed1">
+        
+        <img class="log1" src="assets/media/Logo.png">
+
+        <!--<button onclick="Dark()" class="Dark12">Dark/light-Mode</button>-->
+
+    </div>
+
+    <div class="bodye1">
+        <div class="lef1">
+
+             <!--إدخال المبلغ-->
+         
+            <label for="T-am"> 
+                <p class="T1-am">
+                Enter Amount Here
+               </p>
+            </label>
+            <input id="T-am" type="text"  name="T-am">
+
+        <!--ادخال العمولة-->
+         
+            <label for="com1"> 
+                <p class="com2">
+                Enter commission Here
+               </p>
+            </label>
+            <input id="com1" type="text"  name="com1">
+
+            <!--النتائج-->
+            <p class="res">
+                The Results
+            </p>
+<!--الأهم-->
+            <p id="RES1">
+                Hello
+            </p>
+
+
+        </div>
+
+        <!--الأزرار-->
+        <div class="rig1">
+
+
+            <div class="B1">
+
+                
+                <p class="Gros">
+                    Gross Amount
+                </p>
+                <p class="Net">
+                    Net Amount
+                </p>
+            </div>  
+            <br><br>  
+                <!--Btns-->
+                <div class="S2-1">
+                    
+                    <button onclick="all1()">Amount With VAT and 3%</button>
+                    <button onclick="Netwithall()">Amount with VAT and3%</button>
+                </div>
+
+                <div class="S2-2">
+                    <button onclick="Onvat()" id="onlyvat">Amount With VAT No 3%</button>
+                    <button onclick="no3()">Amount With VAT, No3%</button>
+                </div>
+
+                <div class="S2-3">
+                    <button onclick="Novat1()" id="Novat">Amount Without VAT</button>
+                    <button onclick="NOnovat()">Amount Without VAT</button>
+                </div>
+
+                <div class="S2-4">
+                    <button onclick="SAD()" id="SAR-AM">"SAR" Amount With VAT</button>
+                    <button onclick="SADnet()">"SAR" Amount With VAT</button>
+                </div>
+                
+
+            </div>
+
+           
+
+        </div>
+
+
+
+    
+
+
+
+    <script src="assets/Js/main.js"></script>
+</body>
+</html>
