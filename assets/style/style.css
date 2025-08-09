@@ -1,0 +1,192 @@
+
+/*body{
+    box-sizing: border-box;
+    background-color: black;
+    color: goldenrod;
+}
+    */
+
+    body{
+    box-sizing: border-box;
+    background-color: white;
+    color: blue;
+}
+    
+
+.log1{
+    height: 80%;
+    width: 130px;
+}
+
+
+.hed1 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+.bodye1{
+    
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.rig1 {
+   
+    height: 100%;
+    width: 100%;
+}
+
+.lef1{
+  
+    height: 100%;
+    width: 100%;
+  
+}
+
+.T1-am{
+   font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+#T-am{
+   height: 30px;
+   font-size: 20px;
+   width: 50%;
+   position: relative;
+   left: 25%;
+}
+
+.com2{
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+#com1{
+   height: 30px;
+   font-size: 20px;
+   width: 20%;
+   position: relative;
+   left: 37%;
+}
+
+.res{
+    font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+#RES1{
+    font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-weight: bold;
+   
+
+}
+
+.B1{
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.S2-1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.S2-2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.S2-3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.S2-4{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.B1{
+    font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+}
+
+/*
+button{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 33%;
+    background-color: black;
+    color: gold;
+}
+
+button:hover { 
+    background-color: goldenrod;
+    color: black;
+}
+
+/*
+
+.Dark12 {
+
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 170px;
+    background-color: black;
+    color: gold;
+    height: 50%;
+}
+    */
+
+button{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 33%;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+button:hover { 
+    background-color: whitesmoke;
+    color: blue;
+}
